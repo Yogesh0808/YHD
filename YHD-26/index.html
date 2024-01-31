@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+
+    <!--Swiper Library-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="no-javascript backyard bg-white dark:bg-gray-900">
+        <nav class="main-navigation collapsed" data-tooltip-disabled>
+            <button class="toggle">
+                <span class="top">
+                    <span></span>
+                </span>
+                <span class="bottom">
+                    <span></span>
+                </span>
+            </button>
+
+            <div href="../index.html" class="logo">
+                <img src="Black1.png" class="w">
+            </div>
+
+            <div class="main-navigation-list">
+                <ul>
+                    <li><a href="../backyard" class="alt">About</a></li>
+                    <li class="backyard-menu-item">
+                        <a href="how-it-works">How it works</a>
+                    </li>
+                    <li class="backyard-menu-item">
+                        <a href="tech-specs">Products</a>
+                    </li>
+                    <li class="backyard-menu-item"><a href="faq">FAQ</a></li>
+                    <li class="pages-menu-item"><a href="../news">News</a></li>
+                    <li class="pages-menu-item"><a href="../jobs">Jobs</a></li>
+                    <li class="pages-menu-item">
+                        <a href="../showrooms">Showrooms</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="configure" class="backyard-configure button-rounded button-rounded-blue m-type-12">Contact
+                Us</a>
+        </nav>
+    </header>
+
+    <section class="hero dark:bg-gray-800 flex flex-col lg:flex-row pt-20">
+        <!-- Hero Content (Left Side) -->
+        <div class="w-full lg:w-1/2 mx-auto px-8 py-8 lg:py-16 lg:pl-20">
+            <div class="text-center lg:text-left mt-10">
+                <h1 class="text-4xl lg:text-6xl font-Sans text-gray-800 dark:text-white flex align-center">Welcome to
+                    Yash Home
+                    Decors
+                </h1>
+                <p class="text-lg lg:text-xl text-gray-700 dark:text-gray-300 mt-4">Transforming Spaces with Elegance
+                    and Style</p>
+                <a href="#contact"
+                    class="bg-red-500 hover:bg-red-700 text-white py-3 px-6 rounded-xl inline-block mt-6 transition duration-300">Explore
+                    More</a>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap -m-4 text-center">
+                        <div class="p-4 sm:w-1/4 w-1/2">
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">10K+</h2>
+                            <p class="leading-relaxed">Meters of Fabrics</p>
+                        </div>
+                        <div class="p-4 sm:w-1/4 w-1/2">
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2K+</h2>
+                            <p class="leading-relaxed">Projects</p>
+                        </div>
+                        <div class="p-4 sm:w-1/4 w-1/2">
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">3.6K+</h2>
+                            <p class="leading-relaxed">Mattresses</p>
+                        </div>
+                        <div class="p-4 sm:w-1/4 w-1/2">
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">750+</h2>
+                            <p class="leading-relaxed">Headboards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Image Container (Right Side) -->
+        <div class="w-full lg:w-1/2 mx-auto px-8 py-8 lg:py-16 lg:pr-20">
+            <div class="swiper-container rounded-lg overflow-hidden">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="h-full flex items-center justify-center">
+                            <img src="https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/affordable-home-decor-ideas-2023-hero.jpg"
+                                alt="Slide 1" class="max-h-full max-w-full">
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="h-full flex items-center justify-center">
+                            <img src="https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/affordable-home-decor-ideas-2023-hero.jpg"
+                                alt="Slide 1" class="h-auto max-w-full">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="h-full flex items-center justify-center">
+                            <img src="https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/affordable-home-decor-ideas-2023-hero.jpg"
+                                alt="Slide 2" class="h-auto max-w-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Infinite Carousel Slider-->
+    <section class="logos bg-white py-3">
+        <div class="header py-8">
+            <h4 class="text-3xl text-gray-800 text-center font-Sans"> Trusted Partnerships with Leading Brands
+            </h4>
+        </div>
+        <div class="slider py-12">
+            <div class="slide-logo">
+                <img src="assets/logos/1F.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/2F.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/1W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/1M.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/2W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/4W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/2M.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/3W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/4F.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/3C.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/3F.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/1F.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/2F.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/1W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/1M.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/2W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/4W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/2M.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/3W.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/4F.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/3C.jpg" />
+            </div>
+            <div class="slide-logo">
+                <img src="assets/logos/3F.jpg" />
+            </div>
+        </div>
+    </section>
+
+    <!--Explore Products-->
+    <section class="products-section dark:bg-gray-800">
+        <div class="container mx-auto py-12 px-4">
+            <div class="title mb-8 text-center">
+                <h2 class="type-60 m-type-42">Discover Our Exquisite Collection</h2>
+                <p class="text-gray-600 type-60 m-type-42">Transforming spaces with elegance and style</p>
+            </div>
+        </div>
+        <div class="slide backyard-basement">
+            <div class="modern-grid">
+                <a class="column-3 m-column-6 doorway-item doorway-item-inverted type-24-light m-type-18-light" href="">
+                    <div class="doorway-item-foreground">
+                        <div>1.</div>
+                        <nobr class="nobr">Curtains
+                            <img class="doorway-item-arrow" src="assets/images/icons/arrow-right-black.svg" width="22"
+                                height="16" alt="→" loading="lazy" />
+                        </nobr>
+                    </div>
+                    <img class="doorway-item-background"
+                        src="https://images.pexels.com/photos/7946641/pexels-photo-7946641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="News" loading="lazy" width="315" height="432" />
+                </a>
+                <a class="column-3 m-column-6 doorway-item type-24-light l-type-18-light m-type-18-light"
+                    href="backyard/configure">
+                    <div class="doorway-item-foreground">
+                        <div>2.</div>
+                        Beautiful
+                        <nobr class="nobr">Pillows<img class="doorway-item-arrow"
+                                src="assets/images/icons/arrow-right-black.svg" width="22" height="16" alt="→"
+                                loading="lazy" /></nobr>
+                    </div>
+                    <img class="doorway-item-background"
+                        src="https://images.pexels.com/photos/5825567/pexels-photo-5825567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="News" loading="lazy" width="315" height="432" />
+                </a>
+                <a class="column-3 m-column-6 doorway-item type-24-light m-type-18-light" href="showrooms">
+                    <div class="doorway-item-foreground">
+                        <div>3.</div>
+                        Blinds
+                        <nobr><img class="doorway-item-arrow" src="assets/images/icons/arrow-right-black.svg" width="22"
+                                height="16" alt="→" loading="lazy" />
+                        </nobr>
+
+                    </div>
+                    <img class="doorway-item-background"
+                        src="https://images.pexels.com/photos/845248/pexels-photo-845248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="News" loading="lazy" width="315" height="432" />
+                </a>
+                <a class="column-3 m-column-6 doorway-item type-24-light m-type-18-light" href="developers">
+                    <div class="doorway-item-foreground">
+                        <div>4.</div>
+                        Sofa
+                        <nobr class="nobr">
+                            <img class="doorway-item-arrow" src="assets/images/icons/arrow-right-black.svg" width="22"
+                                height="16" alt="→" loading="lazy" />
+                        </nobr>
+                    </div>
+                    <img class="doorway-item-background"
+                        src="https://images.pexels.com/photos/4846087/pexels-photo-4846087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="News" loading="lazy" width="315" height="432" />
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Why Us-->
+    <!-- ====== About Section Start -->
+    <section class="service overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap items-center justify-between">
+                <div class="w-full px-4 lg:w-6/12">
+                    <div class="flex items-center -mx-3 sm:-mx-4">
+                        <div class="w-full px-3 sm:px-4 xl:w-1/2">
+                            <div class="py-3 sm:py-4">
+                                <img src="assets/images/service/IMG_0232.jpg" alt="" class="w-full rounded-2xl" />
+                            </div>
+                            <div class="py-3 sm:py-4">
+                                <img src="assets/images/service/IMG_3224.jpg" alt="" class="w-full rounded-2xl" />
+                            </div>
+                        </div>
+                        <div class="w-full px-3 sm:px-4 xl:w-1/2">
+                            <div class="relative z-10 my-4">
+                                <img src="assets/images/service/IMG_3223.jpg" alt="" class="w-full rounded-2xl" />
+                                <span class="absolute -right-7 -bottom-7 z-[-1]">
+                                    <svg src="assets/images/icons/circledot.svg"></svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
+                    <div class="mt-10 lg:mt-0">
+                        <span class="block mb-6 text-xl text-primary">
+                            Why Choose Us?
+                        </span>
+                        <h2 class="mb-8 text-5xl text-dark dark:text-white sm:text-[40px]/[48px]">
+                            Our Service goes above and beyond your expectations.
+                        </h2>
+                        <p class="mb-8 text-base text-body-color dark:text-dark-6">
+                            At Yash Home Decors, customer satisfaction is our top priority. We go above and beyond to
+                            ensure your happiness by offering a range of exceptional services tailored to your needs.
+                            From personalized consultations to expert installation, we're dedicated to making your
+                            experience with us seamless and delightful.
+                        </p>
+                        <p class="mb-10 text-base text-body-color dark:text-dark-6">
+                            We understand the importance of a strong brand identity, which is why we emphasize the
+                            significance of securing the perfect domain name. Your domain is the foundation of your
+                            online presence, reflecting your brand's identity and values. Let us help you secure a
+                            domain name that aligns perfectly with your business, ensuring consistency and recognition
+                            across all platforms.
+                        </p>
+                        <a href="javascript:void(0)"
+                            class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== About Section End -->
+
+
+    <!--Portfolio-->
+    <div class="text-center mt-8">
+        <h2 class="text-2xl font-bold">Portfolio Showcase</h2>
+        <p class="text-lg mt-2">Browse through our stunning collection of home decor designs</p>
+
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <a href="#"
+            class="bg-blue-500 hover:bg-blue-600 text-white py-3 px-8 rounded-full inline-block mt-4 transition duration-300">Explore</a>
+    </div>
+
+    <div class="no-javascript backyard page">
+        <div class="slides" style="overflow-x: hidden">
+            <div class="slide jealousy" data-invert="true">
+                <div class="column">
+                    <h1 class="h3">
+                        Your main<br />home might<br />get jealous
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <input aria-label="Studio" data-layout="studio" type="radio"
+                            name="jealousy-selector-main" />Studio
+                    </li>
+                    <li>
+                        <input aria-label="1B" data-layout="onebed" type="radio" name="jealousy-selector-main"
+                            checked />1B
+                    </li>
+                    <li>
+                        <input aria-label="2B" data-layout="twobed" type="radio" name="jealousy-selector-main" />2B
+                    </li>
+                </ul>
+                <div class="images">
+                    <img alt="Studio interior"
+                        src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29mYXxlbnwwfHwwfHx8MA%3D%3D"
+                        loading="lazy" />
+                    <img alt="One bedroom interior"
+                        src="https://plus.unsplash.com/premium_photo-1661765778256-169bf5e561a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D"
+                        loading="lazy" />
+                    <img alt="Two bedroom interior"
+                        src="https://plus.unsplash.com/premium_photo-1672136336540-2dd39fd4d1e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D"
+                        loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
